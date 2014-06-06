@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'tweets#index'
-  resources 'tweets'
+  resources :tweets
 end
 
 #     Prefix Verb   URI Pattern                Controller#Action
